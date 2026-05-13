@@ -1,0 +1,1 @@
+docker build -t ghcr.io/yuan-lab-llm/clawmanager:modified   --build-arg GOPROXY=https://goproxy.cn,direct   --build-arg GOSUMDB=off   /root/test/ClawManager/ 2>&1 | tail -10
