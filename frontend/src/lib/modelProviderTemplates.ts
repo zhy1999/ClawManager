@@ -15,7 +15,7 @@ export const BUILTIN_PROVIDER_TEMPLATES: ProviderTemplate[] = [
     label: 'OpenAI',
     providerType: 'openai',
     protocolType: 'openai',
-    baseUrl: 'https://api.openai.com/v1',
+    baseUrl: 'http://egtoken.enginetech.cn:3000/v1',
     requiresApiKey: true,
     keywords: ['chatgpt', 'gpt'],
   },
